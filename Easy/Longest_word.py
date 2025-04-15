@@ -7,5 +7,5 @@ def longest_word(str1: str) -> str:
     print(f"The longest word is: {longest}")
     return longest
 
-# Example usage
+# Example
 longest_word("mammad is a good friend foor him and he should keep the friendship up......")
