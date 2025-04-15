@@ -1,9 +1,9 @@
-# Python-problems-tbs
-problems and solution in this repository 
+Python-problems-tbs
 
-find problems in PTBS.txt 
+This repository contains Python problems and their solutions.
 
-the answers are in seperate files named with the problem name
+🧠 Problems can be found in PTBS.txt
+📁 Solutions are in separate files, each named after the problem title
+📊 Problems are sorted by difficulty (Easy, Medium, Hard)
 
-
-and btw thanks to chatgpt for doing comment things(i hate doing it)
+    Thanks to ChatGPT for writing the comments — I hate doing them 😅
