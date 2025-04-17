@@ -9,7 +9,6 @@ def is_palindrome(string1: str) -> bool:
     result = (cleaned == reversed_str)
     
     print(f"Is Palindrome: {result}")
-    
     return result
 
 # thanks to chat gpt for it's example XD"

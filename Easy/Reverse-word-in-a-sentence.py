@@ -6,5 +6,5 @@ def reverse_sentence(sentence: str) -> str:
     return result
 
 
-
+#Example
 reverse_sentence("mammad is the biggest fan of you")
