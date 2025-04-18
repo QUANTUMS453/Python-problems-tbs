@@ -3,3 +3,5 @@ Problem #2: Longest Word in a Sentence---Easy
 Problem #3: Unique Characters---Easy
 Problem #4: Reverse Words in a Sentence---Easy
 problem #5: palindrome checher---Easy
+ Problem #6: Count Vowels in a String---Easy
+Problem #7: Count Words in a Sentence---Easy
