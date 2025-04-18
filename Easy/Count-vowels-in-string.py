@@ -7,4 +7,4 @@ def count_vowels(str1: str) -> int:
     
     return result
 
-count_vowels("mammad is a fucking good guy bro")
+count_vowels("mammad is a good guy bro")
