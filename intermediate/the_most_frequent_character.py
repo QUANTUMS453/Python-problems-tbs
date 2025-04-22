@@ -1,22 +1,27 @@
-def most_frequent_char(string1: str) -> str:
+def most_frequent_char(string1: str) -> list:
     counts = {}
-    clean_str = list(string1.strip(""))
-    for letter in clean_str:
-        if letter != " ":
-            if letter in counts:
-                counts[letter] += 1
-            else:
-                counts[letter] = 1
-    
+    keys = []
+    string1 = string1.lower()
+
+    for letter in string1:
+        if letter.isalpha():  # Only count alphabetic characters
+            counts[letter] = counts.get(letter, 0) + 1
+
+    if not counts:
+        return []
 
     maximum = max(counts.values())
 
     for key, value in counts.items():
         if value == maximum:
-            return key
+            keys.append(key)
+
+    return keys
 
 
 
+# Examples
 print(most_frequent_char("hello world"))
-
-print(most_frequent_char("aabbbccdd"))
+print(most_frequent_char("this world is beatiful"))     
+print(most_frequent_char("jack is going to save the world???!!!!?!?!?"))
+print(most_frequent_char("finish"))
